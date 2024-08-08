@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* Tipografía local */
+
+/* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
+/* Tipografía web */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+CZ:wght@100..400&display=swap'); */
+
+
+/* Border */
+header nav ul li{
+    border: 2px solid red;
+    border-style: dashed;
+}
+/*Padding*/
+
+header nav ul li{
+    padding: 10px;
+}
+
+/* Margin */
+
+header nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* Display block */
+
+span {/*es un elemento en línea que convierto en bloque*/
+    display: block;
+    background-color: grey;}
+    
+/* Display inline */
+    p {/*es un elemento en bloque que convierto  en línea*/
+        display: inline;
+       background-color: yellow;}
+
+/* Display none */
+
+
+/* Position sticky */
+
+
+/* Position Fixed */
+
+
+/* Etiqueta en linea: enlaces, imagenes */
+
+/* Etiqueta en bloque: div, section */

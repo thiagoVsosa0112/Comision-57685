@@ -1,0 +1,83 @@
+/*PSEUDOCLASES*/
+/* Son palabras claves que le otorgan un estado a un elementos determinado */
+
+/*VISITED (solo a links) Nos permite cambiarle el estado a un link que fue visitado*/
+
+a:visited{
+    color: black;
+}
+
+/*Link (solo a links)*/
+
+a:link{
+    color: black;
+}
+
+/*Active (solo a links)*/
+
+a:active{
+    background-color: aqua;
+    color: violet;
+}
+
+
+/*First Letter (solo para parrafos)*/
+
+p{
+    font-size: 2rem;
+}
+
+p::first-letter{
+    color: blue;
+    background-color: antiquewhite;
+}
+
+/*Hover*/
+
+/* section{
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+img{
+    width: 50%;
+    height: 50%;
+    filter: blur(2px);
+}
+img:hover{
+    width: 100%;
+    height: 100%;
+    filter: blur(0);
+}
+
+.list-item:hover{
+    background-color: aquamarine;
+}
+
+
+
+/*Nth child*/
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+section div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    
+}
+
+section div:nth-child(2){
+    background-color: aqua;
+    width: 400px;
+}

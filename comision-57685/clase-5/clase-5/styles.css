@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header{
+    background-color: #ffaac9;
+    padding: 20px;
+}
+
+.navbar{
+    /*Agrego flex al nav para asi tener ubicados horizontalmente la ul y la img*/ 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-list{
+    /*A la ul le agrego flex para ubicar en fila su li*/
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.nav-list li{
+    padding: 3px;
+}
+.nav-list li a{
+    color: black;
+}
+
+
+.card-container{
+    /*a la section le agrego flex. de esta forma las ubico de manera horizontal*/ 
+    display: flex;
+    justify-content: space-between;
+    margin:  20px 40px 20px 40px;
+}
+.card{
+    width: 300px;
+    background-color: #00c4ff;
+    border-radius: 8px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-text{
+    /*A los textos los ubico uno debajo del otro con flex*/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px;
+}
+
+.card-text h3{
+    font-size: 24px;
+}
+.card-text p{
+    font-size: 16px;
+}
+.card-text a{
+    padding: 16px;
+    background-color: #333;
+    border-radius: 4px;
+    color: #f0f0f0;
+}
+footer h3{
+    text-align: center;
+}

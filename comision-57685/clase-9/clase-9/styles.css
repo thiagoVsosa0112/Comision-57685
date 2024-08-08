@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+img{
+    height: 400px;
+    width: 100%;
+}
+.fondo-div{
+    background-color: aqua;
+}
+.fondo-nav{
+    background-color: blueviolet;
+}
+/* .posicion-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
